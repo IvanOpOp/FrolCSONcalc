@@ -1,0 +1,36 @@
+.my-benefits {
+
+    // .my-benefits__container
+
+    &__container {
+    }
+
+    // .my-benefits__title
+
+    &__title {
+        margin: 30px 0;
+    }
+
+    // .my-benefits__row
+
+    &__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__row:not(:last-child){
+        margin-bottom: 15px;
+    }
+
+    // .my-benefits__benefit
+
+    &__benefit {
+    }
+
+    // .my-benefits__button
+
+    &__button {
+    }
+}
+

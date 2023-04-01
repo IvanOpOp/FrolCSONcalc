@@ -1,0 +1,27 @@
+.footer {
+   
+    background-color: #d0d0d0;
+    // .footer__container
+
+    &__container {
+        display: flex;
+    }
+
+    // .footer__body
+
+    &__body {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    // .footer__column
+
+    &__column {
+    }
+
+    // .footer__text
+
+    &__text {
+    }
+}
+

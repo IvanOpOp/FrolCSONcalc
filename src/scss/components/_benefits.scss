@@ -1,0 +1,108 @@
+
+.calc {
+
+	flex: 1 0 auto;
+   
+		// .calc__container
+
+		&__container {
+			display: flex;
+		}
+
+		// .calc__body
+
+		&__body {
+		}
+
+		// .calc__benefits
+
+		&__benefits {
+		}
+}
+
+.benefits {
+
+		// .benefits__list
+
+		&__list {
+			margin-right: 30px;
+		}
+
+		// .benefits__category-container
+
+		&__category-container {
+		}
+
+		// .benefits__category
+
+		&__category {
+            padding: 5px;
+			background-color: var(--color-1);
+			border: 1px solid var(--color-2);
+			cursor: pointer;
+		}
+
+		// .benefits__benefit
+
+		&__benefit {
+		}
+}
+.benefit {
+
+		display: none;
+		// .benefit__list
+
+		&__list {
+		}
+
+		// .benefit__item
+
+		&__item {
+            padding:5px 0 0 10px;
+			background-color: var(--color-3);
+			border: 1px solid var(--color-2);
+		}
+		// .calc__info
+
+	&__info {
+	}
+}
+.benefit.benefit--active{
+	display: block;
+}
+
+.info {
+	max-width: 800px;
+	// .info__title
+
+	&__row{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__title {
+		font-size: 24px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	&__button{
+		cursor: pointer;
+	}
+
+	// .info__text
+
+	&__text {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+
+	// .info__benefit-price
+
+	&__benefit-price {
+		font-size: 20px;
+	}
+
+	
+}
